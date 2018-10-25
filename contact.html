@@ -6,24 +6,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title> Capstone 1 | Contact Us Page</title>
+	<title> Art Builders | Contact us </title>
 
 	<!-- fontawesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
+	<!-- animate -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!--google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:700|Roboto" rel="stylesheet">
+
 	<!-- bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	
+	<!-- favicon -->
+	<link rel="icon" href="brand-white.png" type="image/gif" sizes="16x16">
 
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-</head>
-<body>
 
 
-	<div class="container-fluid">
-		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-			<a class="navbar-brand" href="home.html"><i class="far fa-hand-peace"></i> Company Name</a>
+		<div class="container-fluid px-0">
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+			<a class="navbar-brand" href="index.html">
+				<img src="assets/images/brand-white.png" class="d-inline align-top" alt="brandlogo">
+			</a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
 				<span class="navbar-toggler-icon"></span>
@@ -32,74 +41,144 @@
 			<div id="navbar-nav" class="collapse navbar-collapse">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="home.html">Home</a>
+						<a class="nav-link" href="index.html">Home</a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="home.html">About</a>
+						<a class="nav-link" href="about.html">About</a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link active" href="contact.html">Contact Us</a>
+						<a class="nav-link" href="#">Project</a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="home.html">Gallery</a>
+						<a class="nav-link active" href="contact.html">Contact</a>
 					</li>
+
 				</ul>
 			</div> <!-- end navbar items -->
 
 		</nav> <!-- end navbar -->	
 
+		<div class="container-fluid">	
+						<h2 id="contact-header" class="text-center pt-3 pb-1"> Contact Us!</h2>
+				<div class="row">
+				<div id="left-contact" class="col-lg-6">
 
-		<div class="row">
-			
-			<header class="col-12">
-				<h1 class="text-center py-3">Contact Us Page</h1>
-			</header>
+					<div id="address-container">
+						<h6 id="contact-address0">Our Office</h6>	
+						<h6 id="contact-address">#3 St. Joseph St.</h6>
+						<h6 id="contact-address1">Greater Lagro, Quezon City</h6>
+						<h6 id="contact-address2">Mon-Sat 8AM-5PM</h6>
+						<h6 id="contact-address3">Let us discuss your Ideas</h6>
+						<h6 id="ideas-address">+639165185634</h6>
+						<h6 id="contact-address2">adrianescto@gmail.com</h6>
+					</div><!--  end of address -->
 
-			<div class="col-12 col-md-6">
-				<form id="form">
+					<div id="contact-social-media-icon">
+
+						<h6 id="follow-us">Follow Our Social Media Accounts</h6>
+
+					<a href="https:www.facebook.com" target="_blank"><img id="contact-smi" src="assets/images/fbicon.png" alt="contact-socialmedia"></a>
+					<a href="https:www.instagram.com" target="_blank"><img id="contact-smi" src="assets/images/igicon.png" alt="contact-socialmedia"></a>
+					<a href="https://plus.google.com" target="_blank"><img id="contact-smi" src="assets/images/mailicon.png" alt="contact-socialmedia"></a>
+					<a href="https://www.linkedin.com" target="_blank"><img id="contact-smi" src="assets/images/linkedicon.png" alt="contact-socialmedia"></a>
+					<a href="https://www.twitter.com" target="_blank"><img id="contact-smi" src="assets/images/twicon.png" alt="contact-socialmedia"></a>
 					
-					<div class="form-group">
-						<label for="username">Username:</label>
-						<input id="username" class="form-control" type="text" placeholder="Enter Your Username Here">
-					</div> <!-- end form group -->
-
-					<div class="form-group">
-						<label for="email">Email:</label>
-						<input id="email" class="form-control" type="email" placeholder="Enter Your Email Here">
-					</div> <!-- end form group -->
-
-					<div class="form-group">
-						<label for="contact">Contact Number:</label>
-						<input id="contact" class="form-control" type="number" placeholder="Enter Your Contact Number Here">
-					</div> <!-- end form group -->
-
-					<div class="form-group">
-						<label for="message">Message:</label>
-						<textarea id="message" class="form-control" placeholder="Enter Your Message Here"></textarea>
-					</div> <!-- end form group -->
-
-					<button class="btn btn-block btn-outline-success">Submit</button>
+					</div>	<!-- end of icons -->
 
 
-				</form>
-			</div> <!-- end form columns -->
-
-			<div class="col-12 col-md-6">
+				</div> <!-- end of left side contact-->		
 				
-				<iframe src="https://www.google.com/maps/place/La+Mesa+Heights/@14.7266166,121.0626375,17z/data=!4m12!1m6!3m5!1s0x3397b07ad3c01b1b:0x1afa496847dacb80!2sLagro+Subdivision!8m2!3d14.7259888!4d121.0665267!3m4!1s0x3397b07cb71bd1cf:0x61bdeb3f648bbc92!8m2!3d14.7261298!4d121.0684763" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-			</div> <!-- end of google map -->
+				<div id="right-contact" class="col-lg-6">	
+						<h2 id="comments">Please let us know if you have any question or would like to have further information about Art Builders or simply want to leave us a comment.</h2>
+						<form id="input-section">
+						  <div class="form-group">
+						    <label for="exampleFormControlInput1">Email address</label>
+						    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleFormControlInput1">Name</label>
+						    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleFormControlInput1">Contact Number</label>
+						    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Contact Number">
+						  </div>
 
-		</div> <!-- end row -->	
 
-	</div> <!-- end container fluid -->
+						  <div class="form-group">
+						    <label for="exampleFormControlTextarea1">Comments</label>
+						    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Leave us a comment"></textarea>
+						  </div>
+						</form>
+
+				</div> <!-- end of right side contact -->		
+			</div><!--  end of row -->
+		</div>
+
+				<!-- start of map -->
+
+				<div class="container-fluid m-0">
+				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.408797105268!2d121.04133731404764!3d14.632720989781962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7afde2b9707%3A0x4c1ece4a6ee15586!2sGEMPC+Building!5e0!3m2!1sen!2sph!4v1540276653938" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>	 
+
+				</div> <!-- end of map -->
 
 
 
+		<!-- start of footer -->
 
+
+		<footer id="footer" class="footer container-fluid">
+			<div class="row">
+				<div class="col-lg-4">
+					<h4 id="h4-footer" class="text-center">Let's start building your dream house today!</h4>
+					<button id="footer-button" type="button" class="btn btn-secondary btn-sm">Request a quote!</button>	
+				</div>
+
+				<div class="col-lg-4">
+						<ul class="footer-nav text-center mt-5">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="Project.html">Project</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				    <div class="circle">
+				    	<a href="index.html"><img src="assets/images/favicon.png" alt="footer-icon"></a>
+				    </div>
+				</div> <!-- end of 2nd column -->
+
+				<div class="col-lg-4">
+					<div class="social-media">
+					<a href="https://www.twitter.com" target="_blank"><img src="assets/images/fbicon.png" alt="socialmedia"></a>
+					<a href="https:www.instagram.com" target="_blank"><img src="assets/images/igicon.png" alt="socialmedia"></a>
+					<a href="https://plus.google.com" target="_blank"><img src="assets/images/mailicon.png" alt="socialmedia"></a>
+					<a href="https://www.linkedin.com" target="_blank"><img src="assets/images/linkedicon.png" alt="socialmedia"></a>
+					<a href="https://www.twitter.com" target="_blank"><img src="assets/images/twicon.png" alt="socialmedia"></a>
+					</div>
+					
+
+					<address>
+						<ul class="address">
+							<li>Our Office</li>
+							<li>#3 St Joseph St.</li>
+							<li>Greater Lagro, Quezon City</li>
+							<li></li>
+							<li>Let us discuss your ideas</li>
+							<li>+639900000</li>
+						</ul>
+					</address>
+				</div> <!-- end of 3rd column -->
+
+
+			</div>
+			<p class="p-3 mb-0 text-center">Handcrafted by Adrian Escoto | &copy; 2018</p>
+		</footer><!-- end of footer -->
+
+	</div> 	<!-- end of container -->
 
 
 
@@ -114,5 +193,5 @@
 <!-- external bootstrap js -->
 <script src="assets/js/bootstrap.min.js"></script>
 
-</body>
-</html>
+</head>
+<body>

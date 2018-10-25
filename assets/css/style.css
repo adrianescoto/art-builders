@@ -7,7 +7,13 @@
 
 
 
+/*Header - Navbar*/
 
+
+
+#navbar{
+	background-color: #282828;
+}
 
 img[alt*="brandlogo"]{
 	width: 250px;
@@ -16,17 +22,248 @@ img[alt*="brandlogo"]{
 	margin-left: 20%;
 }
 
-.carousel-item{
-	background-color: #282828;
+/* End of Header*/
+
+
+
+.jumbotron{
+	background-color: #f2f2f2;
 }
 
 
-header{
-	background-color: #282828; 
+li>a{
+	color: #f2f2f2;
 	font-family: 'Roboto', sans-serif;
-	padding-right: 10%;
+	font-size: 13px;
+	font-weight: bold;
 
 }
+
+
+
+/*#about1{
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: -6px;
+	border-bottom: 6px solid #ff0000;
+}
+
+#about2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}*/
+
+
+
+/*START OF INDEX - HOME PAGE*/
+
+.carousel-item{
+	padding-top: 5vh;
+	background-color: #282828;
+	height: 90vh;
+}
+
+
+#jumbotron-about{
+	background-color: #f2f2f2;
+	height: 100vh;
+	border-radius: 0;
+}
+
+#carousel-controls {
+	height: 100vh;
+}
+
+#carousel-controls img {
+	height: 100vh;
+	max-height: 90vh;
+}
+
+#about-tags1{
+	color: black;
+	margin-top: 2%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: -6px;
+
+}
+
+#what-we-do{
+	border: 0;
+}
+
+img[alt*="what-we-do1"]{
+	margin-left: 15%; 
+	width: 1200px;
+	height: 900px;
+
+}
+
+
+
+
+/*START OF ABOUT SECTION*/
+
+
+
+#about-tags{
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: -6px;
+	border-bottom: 6px solid #ff0000;
+}
+
+#about-info{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+/* END OF ABOUT SECTION*/
+
+
+
+/* START OF CONTACT US */
+
+
+#contact-header{
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: -6px;
+	border-bottom: 6px solid #ff0000;
+}
+
+/* CONTACT US RIGHT SECTION */
+
+#comments{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	padding-top: 5%;
+	padding-left: 25%;
+	padding-right: 	25%;
+	padding-bottom: 5%;
+	font-size: 	15px;
+	font-style: italic;	
+}
+
+
+#input-section{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size:  13px;
+	margin-left: 25%;
+	margin-bottom: 10%;
+}
+
+.form-group{
+	width: 	300px;
+}
+.form-control{
+	font-size: 10px;
+	border: 0px;
+	border-radius: 	0;
+	border-bottom: 	1px solid grey;
+}
+
+/* END OF CONTACT US RIGHT SECTION*/
+
+
+
+
+/* CONTACT US LEFT SECTION */
+
+#address-container{
+	margin-top: 10%;
+	margin-left: 35%;
+	margin-right: 30%;
+	shape-margin: 	5%;
+	text-align: justify;
+}
+
+#contact-address0{
+	color:black;
+	font-weight: bold;
+	margin-bottom: 10%;
+	}
+
+
+#contact-address1{
+	color:black;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 10%;
+	}
+
+#contact-address2{
+	color:black;
+	font-weight: bold;
+	margin-bottom: 10%;
+	font-style: italic;
+}
+
+
+#contact-address3{
+	color:black;
+	font-weight:bold;
+	margin-bottom: 	10%;
+}
+
+#ideas-address{
+	color: #ff0000;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 10%;
+}
+
+#contact-address{
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+
+#follow-us{
+	margin-top: 10%;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 20px;
+	letter-spacing: -2px;
+}
+
+#contact-social-media-icon{
+margin-left: 35%;
+/*	letter-spacing: -2px;*/
+}
+
+#contact-smi{   /*CONTACT SOCIAL MEDIA ICONS*/
+	margin: 0;
+	width: 50px;
+	height: 50px;
+	margin-right: 1%;
+}
+
+
+
+
+
+/* END OF CONTACT US */
+
+
+
+
+
+
+
 
 /* START OF FOOTER */
 footer{
@@ -110,69 +347,6 @@ img[alt*="socialmedia"]{
 
 
 /* END OF FOOTER */
-
-
-/* ABOUT SECTION*/
-
-
-
-#navbar{
-	background-color: #282828;
-	padding-right: 10%;
-
-}
-
-
-#about-tags{
-	color: black;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 60px;
-	font-weight: bold;
-	letter-spacing: -6px;
-	border-bottom: 6px solid #ff0000;
-}
-
-#about-info{
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-
-/* END OF ABOUT SECTION*/
-
-
-.jumbotron{
-	background-color: #f2f2f2;
-}
-
-
-
-#about1{
-	color: black;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 60px;
-	font-weight: bold;
-	letter-spacing: -6px;
-	border-bottom: 6px solid #ff0000;
-}
-
-#about2{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 25px;
-	font-weight: bold;
-}
-li>a{
-	color: #f2f2f2;
-	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
-	font-weight: bold;
-
-}
-
-
-
-
 
 
 
