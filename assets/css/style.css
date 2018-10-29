@@ -318,12 +318,33 @@ img[alt*="zen-house"]:hover{
 
 
 
+/* OUR PROJECT */
+
+#our-project-title {
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: -6px;
+	border-bottom: 6px solid #ff0000;
+}
 
 
+#our-project-content {
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
 
 
+#project-card{
+	border: 0;
+}
 
-
+#project-card-title{
+	font-weight: bold;
+	font-style: italic;
+}
 
 
 
@@ -340,6 +361,236 @@ img[alt*="zen-house"]:hover{
 
 
 /* START OF CONTACT US */
+
+
+#contact-header{
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: -6px;
+	border-bottom: 6px solid #ff0000;
+}
+
+/* CONTACT US RIGHT SECTION */
+
+#comments{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	padding-top: 5%;
+	padding-left: 0%;
+	padding-right: 	10%;
+	padding-bottom: 5%;
+	font-size: 	15px;
+	font-style: italic;	
+}
+
+
+#input-section{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size:  13px;
+	margin-left: 0%;
+	margin-bottom: 0%;
+}
+
+.form-group{
+	width: 	300px;
+}
+.form-control{
+	font-size: 10px;
+	border: 0px;
+	border-radius: 	0;
+	border-bottom: 	1px solid grey;
+}
+
+/* END OF CONTACT US RIGHT SECTION*/
+
+
+
+
+/* CONTACT US LEFT SECTION */
+
+#address-container{
+	margin-top: 10%;
+	margin-left: 25%;
+	margin-right: 30%;
+	shape-margin: 	5%;
+	text-align: justify;
+}
+
+#contact-address0{
+	color:black;
+	font-weight: bold;
+	margin-bottom: 10%;
+	}
+
+
+#contact-address1{
+	color:black;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 10%;
+	}
+
+#contact-address2{
+	color:black;
+	font-weight: bold;
+	margin-bottom: 10%;
+	font-style: italic;
+}
+
+
+#contact-address3{
+	color:black;
+	font-weight:bold;
+	margin-bottom: 	10%;
+}
+
+#ideas-address{
+	color: #ff0000;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 10%;
+}
+
+#contact-address{
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+
+#follow-us{
+	margin-top: 10%;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 20px;
+	letter-spacing: -2px;
+}
+
+#contact-social-media-icon{
+	margin-left: 10%;
+/*	letter-spacing: -2px;*/
+}
+
+#contact-smi{   /*CONTACT SOCIAL MEDIA ICONS*/
+	margin: 0;
+	width: 50px;
+	height: 50px;
+	margin-right: 1%;
+}
+
+
+
+
+
+/* END OF CONTACT US */
+
+
+
+
+
+
+
+
+/* START OF FOOTER */
+footer{
+	background-color: #ed1c24;
+	height: 100%;	
+}
+
+
+#h4-footer{
+	font-family: 'Open Sans', sans-serif;
+	color: #f2f2f2;
+	font-size: 20px;
+	padding-top: 10%;
+	letter-spacing: -1px;
+
+}
+
+#footer-button{
+		border: 0;
+		margin-top: 10%;
+		height: 30px;
+}
+
+ .nav-item{
+ 	padding-right: 0%;
+ }
+
+a:hover{
+	color: #282828;
+	text-decoration: none;
+}
+ .circle{
+ 	width: 80px;
+ 	height: 80px;
+ 	background-color: #f2f2f2;
+ 	border-radius: 50%;
+ 	margin-left: 40%;
+ 	padding-left: 5px;
+ 	margin-bottom: 10%;
+ }
+
+.footer-nav>li{
+	display: inline;
+	padding-left: 10px;
+	list-style: none;
+	}
+
+
+img[alt*="footer-icon"]{
+	width: 70px;
+	height: 70px;
+}
+
+address{
+	padding-bottom: 2%;
+	text-align: center;
+	color: #f2f2f2;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.address>li{
+	list-style: none;
+	padding-top: 0px;
+}
+
+
+.social-media{
+	padding-top: 10%;
+	padding-left: 15%;
+	margin-bottom: 	10%;
+}
+
+img[alt*="socialmedia"]{
+	margin-top: 0%;
+	width: 30px;
+	height: 30px;
+}
+
+
+
+/* END OF FOOTER */
+
+
+
+
+
+
+
+
+
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 961px) {
+  body {
+  }
 
 
 #contact-header{
@@ -450,7 +701,7 @@ img[alt*="zen-house"]:hover{
 }
 
 #contact-social-media-icon{
-margin-left: 35%;
+	margin-left: 35%;
 /*	letter-spacing: -2px;*/
 }
 
@@ -466,26 +717,6 @@ margin-left: 35%;
 
 
 /* END OF CONTACT US */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -515,9 +746,10 @@ footer{
 #footer-button{
 		border: 0;
 		margin-top: 5%;
-		margin-left: 55%;
 		height: 30px;
+		margin-left: 45%;
 }
+
 
  .nav-item{
  	padding-right: 10%;
@@ -575,11 +807,31 @@ img[alt*="socialmedia"]{
 }
 
 
-
 /* END OF FOOTER */
 
 
 
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+  }
+
+#
+
+}
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+  }
+
+
+
+  }
 
 
 
