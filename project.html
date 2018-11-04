@@ -21,7 +21,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:700|Roboto" rel="stylesheet">
 
 	<!-- bootstrap css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	
 	<!-- favicon -->
 	<link rel="icon" href="brand-white.png" type="image/gif" sizes="16x16">
@@ -31,7 +34,7 @@
 
 
 		<div class="container-fluid px-0">
-		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
 			<a class="navbar-brand" href="index.html">
 				<img src="assets/images/brand-white.png" class="d-inline align-top" alt="brandlogo">
 			</a>
@@ -68,7 +71,76 @@
 		<section id="our-project">
 			<h2 id="our-project-title" class="text-center pt-3 pb-1">Our Projects</h2>
 
-		<div id="our-project-content" class="row container-fluid">
+
+<section class="gallery">
+  <div class="carousel">
+    
+    <input type="radio" id="image1" name="gallery-control" checked>
+    <input type="radio" id="image2" name="gallery-control">
+    <input type="radio" id="image3" name="gallery-control">
+    <input type="radio" id="image4" name="gallery-control">
+    <input type="radio" id="image5" name="gallery-control">
+    
+    <input type="checkbox" id="fullscreen" name="gallery-fullscreen-control"/>
+    
+    <div class="wrap">
+      
+      <figure>
+        <label for="fullscreen">
+          <img src="assets/images/Projects/architect-show-m4-1.jpg" alt="project-img"/>
+        </label>
+      </figure>
+      
+      <figure>
+        <label for="fullscreen">
+          <img src="assets/images/Projects/architect-show-m4-2.jpg" alt="project-img"/>
+        </label>
+      </figure>
+
+      <figure>
+        <label for="fullscreen">
+          <img src="assets/images/Projects/architect-show_m4-3.jpg" alt="project-img" />
+        </label>
+      </figure>
+
+      <figure>
+        <label for="fullscreen">
+          <img src="assets/images/Projects/architect-show_m4.jpg" alt="project-img"/>
+        </label>
+      </figure>
+
+            <figure>
+        <label for="fullscreen">
+          <img src="assets/images/Projects/architect-show1.jpg" alt="project-img"/>
+        </label>
+
+      </figure>
+    </div>
+    
+    <div class="thumbnails">
+      
+      <div class="slider"><div class="indicator"></div></div>
+      
+      <label for="image1" class="thumb" style="background-image: url('assets/images/Projects/architect-show-m4-1.jpg')"></label>
+      
+      <label for="image2" class="thumb" style="background-image: url('assets/images/Projects/architect-show-m4-2.jpg')"></label>
+      
+      <label for="image3" class="thumb" style="background-image: url('assets/images/Projects/architect-show_m4-3.jpg')"></label>
+        
+      <label for="image4" class="thumb" style="background-image: url('assets/images/Projects/architect-show_m4.jpg')"></label>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- 		<div id="our-project-content" class="row container-fluid">
 		  <div class="col-lg-3 col-sm-4 ml-2">
 		    <div id="project-card" class="card">
 		      <div class="card-body">
@@ -94,7 +166,7 @@
 		</div>
 		</div>
 
-		</div>
+		</div> -->
 
 
 
@@ -105,35 +177,35 @@
 
 
 
-		<!-- start of footer -->
+				<!-- start of footer -->
 
 
 		<footer id="footer" class="footer container-fluid">
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-4 col-sm-12 text-center">
 					<h4 id="h4-footer" class="text-center">Let's start building your dream house today!</h4>
 					<button id="footer-button" type="button" class="btn btn-secondary btn-sm">Request a quote!</button>	
 				</div>
 
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-4 col-sm-12">
 						<ul class="footer-nav text-center mt-5">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
-						<li><a href="#">Project</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="Project.html">Project</a></li>
+						<li><a href="#">Contact</a></li>
 					</ul>
 				    <div class="circle">
 				    	<a href="index.html"><img src="assets/images/favicon.png" alt="footer-icon"></a>
 				    </div>
 				</div> <!-- end of 2nd column -->
 
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-4 col-sm-12 text-center">
 					<div class="social-media">
-					<img src="assets/images/fbicon.png" alt="socialmedia">
-					<img src="assets/images/igicon.png" alt="socialmedia">
-					<img src="assets/images/mailicon.png" alt="socialmedia">
-					<img src="assets/images/linkedicon.png" alt="socialmedia">
-					<img src="assets/images/twicon.png" alt="socialmedia">
+					<a href="https://www.twitter.com" target="_blank"><img src="assets/images/fbicon.png" alt="socialmedia"></a>
+					<a href="https:www.instagram.com" target="_blank"><img src="assets/images/igicon.png" alt="socialmedia"></a>
+					<a href="https://plus.google.com" target="_blank"><img src="assets/images/mailicon.png" alt="socialmedia"></a>
+					<a href="https://www.linkedin.com" target="_blank"><img src="assets/images/linkedicon.png" alt="socialmedia"></a>
+					<a href="https://www.twitter.com" target="_blank"><img src="assets/images/twicon.png" alt="socialmedia"></a>
 					</div>
 					
 
@@ -150,10 +222,35 @@
 				</div> <!-- end of 3rd column -->
 
 
-
-
 			</div>
-			<p class="p-3 mb-0 text-center">Handcrafted by Adrian Escoto | &copy; 2018</p>
+			<p class="mb-0 text-center">Handcrafted by Adrian Escoto | &copy; 2018</p>
+			<p id="disclaimer" data-toggle="modal" data-target="#exampleModal">Disclaimer</p>
+
+
+			<!-- Modal -->
+				<div class="modal fade text-center" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="exampleModalLabel">Disclaimer</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        The information contained in this website is for training purposes only. Any image and code snippet that is used in this website is grabbed from google, pexels, pinterest, and codepen.io. The images may be brought down abruptly with the owners request. While we endeavor to bring you the full design of this website, we respect the wishes of each of the image's owner.
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			<!--END OF MODAL-->
+
+
+
+
 		</footer><!-- end of footer -->
 
 	</div> 	<!-- end of container -->
@@ -164,12 +261,12 @@
 
 
 <!-- jquery first then popper the bootstrap js -->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- <script src="assets/js/jquery-3.3.1.min.js"></script> -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
 
 <!-- external bootstrap js -->
-<script src="assets/js/bootstrap.min.js"></script>
-
+<!-- <script src="assets/js/bootstrap.min.js"></script>
+ -->
 </head>
 <body>
